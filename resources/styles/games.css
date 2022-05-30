@@ -13,7 +13,7 @@ body {
 
 .container {
 	padding: 20px;
-  font-family: 'Quicksand', sans-serif;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .box {
@@ -21,7 +21,7 @@ body {
 	background-color: transparent;
 	padding: 10px;
     width: 400px;
-}
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
 #glist {
 	overflow-x: hidden;
 	overflow-y: scroll;
@@ -30,25 +30,25 @@ body {
 	padding: 0;
 	text-align: center;
     border-radius: 12px;
-    font-family: 'Quicksand', sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 #glist::-webkit-scrollbar {
     display: none;
-}
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
 #gsearchbar {
-	outline: none;
+	outline: 3px;
 	width: 374px;
 	font-size: 16px;
 	padding: 12px;
 	margin-bottom: 10px;
 	transition: 0.2s ease;
   cursor:text;
-  font-family: 'Quicksand', sans-serif;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 #glist h2 {
 	display: block;
-	color: #EB46B4;
+	color: #467aeb;
 	font: 18px;
 	border: 1px solid #1D1D1D;
 	margin: -1px 0 0 0;
@@ -61,7 +61,7 @@ body {
 #glist a {
 	display: block;
 	text-decoration: inherit;
-	color: #EB46B4;
+	color: #4662eb;
 	border: 1px solid #1D1D1D;
 	margin-top: -1px;
 	background-color: #1D1D1D;
@@ -70,9 +70,6 @@ body {
   font-family: 'Quicksand', sans-serif;
 }
 
-#glist a:hover {
-	font-size: larger;
-}
 
 .ball {
     position: absolute;
@@ -91,16 +88,16 @@ body {
 input {
     font-family: 'Quicksand', sans-serif;
     text-align: center;
-    color: #EB46B4;
+    color: #516dd1;
     border: none;
     border-radius: 12px;
     padding: 6px;
     width: 245px;
-    background-color: #1D1D1D;
+    background-color: #1d1d1d;
 }
 
 ::placeholder {
-    color: #EB46B4;
+    color: #516dd1;
     font-weight: bold;
 }
 
@@ -115,13 +112,13 @@ input {
 
 .header {
   padding: 5px;
-  text-align: center;
+  text-align: left;
   background: #1D1D1D;
   color: rgb(0, 0, 0);
   font-size: 8px;
   display: flex;
   align-items: center;
-  justify-content:center;
+  justify-content:left;
   width: 600px;
   border-radius: 10px;
   position: absolute;
@@ -129,12 +126,16 @@ input {
   left: 39%;
   margin-top: -100px;
   margin-left: -100px;
-}
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
 a {
   text-decoration:none;
-  color:#EB46B4;
+  color:#4685eb;
 }
 .header-link {
-  color:#EB46B4;
-  font-size: 18px;
+  color:#4685eb;
+  font-size: 18px
 }
+
+
+
+body {background-color: #333338;}
